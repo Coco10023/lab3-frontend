@@ -4,7 +4,7 @@ async function getData() {
   const res = await fetch(API_URL);
   const data = await res.json();
 
-  const list = document.getElementById("list");
+  const list = document.getElementById("experience-list");
   list.innerHTML = "";
 
   data.forEach(item => {
