@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lägg till arbetserfarenhet</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Lägg till arbetserfarenhet</h1>
+    <nav>
+      <a href="index.html">Start</a>
+      <a href="add.html">Lägg till</a>
+      <a href="about.html">Om</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Ny arbetserfarenhet</h2>
+
+    <div id="error-message"></div>
+    <div id="success-message"></div>
+
+    <form id="experience-form">
+      <label for="company">Företag</label>
+      <input type="text" id="company">
+
+      <label for="role">Roll</label>
+      <input type="text" id="role">
+
+      <label for="location">Plats</label>
+      <input type="text" id="location">
+
+      <label for="startDate">Startdatum</label>
+      <input type="text" id="startDate" placeholder="Exempel: 2022">
+
+      <label for="endDate">Slutdatum</label>
+      <input type="text" id="endDate" placeholder="Exempel: 2024">
+
+      <label for="description">Beskrivning</label>
+      <textarea id="description"></textarea>
+
+      <button type="submit">Lägg till</button>
+    </form>
+  </main>
+
+  <script src="js/add.js"></script>
+</body>
+</html>
