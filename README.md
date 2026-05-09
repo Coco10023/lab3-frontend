@@ -49,11 +49,33 @@ https://lab3-backend-k7rv.onrender.com/api/experiences
 
 Formulärdata valideras med JavaScript innan POST-anrop skickas.
 
-Om obligatoriska fält saknas visas tydliga felmeddelanden för användaren.
+Obligatoriska fält:
+
+- company  
+- role  
+- location  
+- startDate  
+- description  
+
+Om något saknas visas ett tydligt felmeddelande för användaren.
 
 ## Hur man kör projektet
 
 1. Klona repot
 
 ```bash
-git clone
+git clone https://github.com/Coco10023/Laboration-3---Frontendutveckling.git
+```
+
+## Publicering 
+Webbplatsen är publicerad via GitHub Pages:
+https://coco10023.github.io/lab3-frontend/index.html 
+
+## Slutsatser
+Genom denna uppgift har jag lärt mig:
+
+Hur man använder Fetch API för att kommunicera med en REST API
+Hur man separerar frontend och backend
+Hur man validerar användarinput i JavaScript
+Hur man publicerar en webbplats med GitHub Pages
+
